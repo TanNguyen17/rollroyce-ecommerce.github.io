@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roll-Royce Retailer</title>
+    <link rel="icon" href="logo_favicon.png" type="image/png" />
+    <style>
+        nav a {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <header>
+            <a href="index.html"><img src="logo_favicon.png" width="80px" height="80px" alt="Roll-Royce Favicon"></a>
+        </header>
+        <br>
+        <nav>
+            <a href="index.html"><strong>MODELS</strong></a>
+            <a href="index.html"><strong>ACCESSORIES</strong></a>
+            <a href="product_order.html"><strong>BUY NOW</strong></a>
+        </nav>
+        <br>
+        <section>
+            <img src="Roll-Royce.png" alt="Wall Paper" style="width: auto; height: 500px;">
+            <h2>Welcome to our Luxury Store✴️</h2>
+        </section>
+        <center>
+            <main style="width: 500px;">
+                <section>
+
+                    <h2>Order Products Form</h2>
+
+                    <form action="form-processing" method="post" id="item-list">
+                        <fieldset>
+                            <legend>Enter your personal information</legend>
+                            <label for="firstName">First Name:</label>
+                            <input type="text" id="firstName" name="firstName" required><br><br>
+
+                            <label for="lastName">Last Name:</label>
+                            <input type="text" id="lastName" name="lastName" required><br><br>
+
+                            <label for="dob">Date of Birth:</label>
+                            <input type="date" id="dob" name="dob" required><br>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <legend>Enter your shipping information</legend>
+                            <label for="address">Address:</label>
+                            <input type="text" id="address" name="address"><br><br>
+
+                            <label for="district">District:</label>
+                            <select id="district" name="district">
+                                <option value="">Select a district</option>
+                                <option value="1">District 1</option>
+                                <option value="2">District 2</option>
+                                <option value="3">District 3</option>
+                            </select><br><br>
+
+                            <label for="city">City:</label>
+                            <select id="city" name="city">
+                                <option value="">Select a city</option>
+                                <option value="HCMC">Ho Chi Minh City</option>
+                                <option value="HN">Hanoi</option>
+                                <option value="DN">Da Nang</option>
+                            </select><br><br>
+
+                            <label for="postcode">Postcode:</label>
+                            <input type="text" id="postcode" name="postcode"><br><br>
+                        </fieldset>graduation-redbacks-pack
+                            <label for="product-select">Select product(s):</label>
+                            <select id="product-select" name="product" multiple>
+                                <option value="noire-droptail">La Rose Noire Droptail</option>
+                                <option value="aethyst-droptail">Aethyst Droptail</option>
+                                <option value="arcadia-droptail">Arcadia Droptail</option>
+                                <option value="ecstasy-plinth">Spectre Spirit of Ecstasy Plinth</option>
+                                <option value="handbag">Handbag</option>
+                                <option value="umbrella">Spectre Umbrella</option>
+                                <option value="pen">Gravity Pen</option>
+                                <option value="personal-key">Personal Key</option>
+                                <option value="ghost-headphone">Ghost Headphone</option>
+                            </select>
+                            <p><strong>Hint:</strong> Use Shift/Ctrl key to select multiple products!</p>
+                        </fieldset>
+                        <br>
+                        <input type="submit" value="Order Now!">
+                    </form>
+                </section>
+            </main>
+            <footer>
+                <h4>© Copyright 2024 by Manh Tan @ RMIT Vietnam</h4>
+            </footer>
+        </center>
+    </center>
+    
+</body>
+</html>
